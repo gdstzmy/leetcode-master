@@ -230,7 +230,8 @@ func reverse (strByte []byte, l, r int){
 func main(){
     var str string
     var target int
-    
+
+
     fmt.Scanln(&target)
     fmt.Scanln(&str)
     strByte := []byte(str)
